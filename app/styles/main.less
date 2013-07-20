@@ -1,0 +1,55 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+@import "../bower_components/bootstrap/less/responsive.less"; // Don't forget to comment lines 22 to remove the second import call to **mixin.less**
+
+@import "../bower_components/font-awesome/less/font-awesome.less";
+@FontAwesomePath: "../fonts";
+.hero-unit {
+  margin: 50px auto 0 auto;
+}
+body {
+  background: green;
+}
+
+#triggers,
+#fade,
+#stage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#stage {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url(http://placekitten.com/320/480/);
+  background-size: cover;
+  z-index: 0;
+}
+
+#fade {
+  background: #000;
+  z-index: 1;
+  -webkit-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
+  opacity: 0;
+}
+.loading #fade {
+  opacity: 1;
+}
+
+#triggers {
+  font-size: 0;
+  z-index: 2;
+  a.trigger {
+    outline: 1px solid #fff;
+    width: 50%;
+    height: 33.333%;
+    display: block;
+    float: left;
+  }
+  a.trigger:hover {
+    background: rgba(0,0,0,.3);
+  }
+}
