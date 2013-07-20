@@ -10,7 +10,6 @@
 
 #stage {
   z-index: 0;
-  background-image: url(http://placekitten.com/320/480/);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,10 +33,12 @@
 }
 
 #triggers a.trigger {
-  display: block;
-  float: left;
-  width: 50%;
-  height: 33.333%;
+    display: block;
+    float: left;
+    width: 50%;
+    height: 33.333%;
+    -webkit-transition: background 700ms ease-in-out;
+            transition: background 700ms ease-in-out;
 }
 
 #triggers a.trigger.active {
