@@ -14,6 +14,7 @@ $(document).ready(function() {
     $triggers.on('click', function() {
         var src = images[$(this).index()];
         $(this).addClass('active');
+        $('body').removeClass('initial');
         changeImage(src);
     });
 

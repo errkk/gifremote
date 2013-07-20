@@ -40,6 +40,12 @@
     -webkit-transition: background 700ms ease-in-out;
             transition: background 700ms ease-in-out;
 }
+.initial #trigger-1 { background: #999; }
+.initial #trigger-2 { background: #888; }
+.initial #trigger-3 { background: #777; }
+.initial #trigger-4 { background: #666; }
+.initial #trigger-5 { background: #555; }
+.initial #trigger-6 { background: #444; }
 
 #triggers a.trigger.active {
   background: rgba(0, 0, 0, 0.1);
