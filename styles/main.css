@@ -40,7 +40,7 @@
   height: 33.333%;
 }
 
-#triggers a.trigger:hover {
+#triggers a.trigger.active {
   background: rgba(0, 0, 0, 0.1);
 }
 

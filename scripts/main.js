@@ -13,6 +13,7 @@ $(document).ready(function() {
 
     $triggers.on('click', function() {
         var src = images[$(this).index()];
+        $(this).addClass('active');
         changeImage(src);
     });
 
@@ -21,6 +22,7 @@ $(document).ready(function() {
         preloadImage(src, function() {
             $stage.css('background-image', 'url(' + src + ')');
             $('body').removeClass('loading');
+            $triggers.removeClass('active');
         });
     }
 
