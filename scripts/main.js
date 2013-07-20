@@ -1,11 +1,11 @@
 $(document).ready(function() {
     var images = [
-        'http://placekitten.com/1200/1200/',
-        'http://placekitten.com/1700/1700/',
-        'http://placekitten.com/1600/1600/',
-        'http://placekitten.com/1500/1500/',
-        'http://placekitten.com/1400/1400/',
-        'http://placekitten.com/900/900/'
+        'http://rack.2.mshcdn.com/media/ZgkyMDEzLzAyLzI4L2U4L3Nob3dlcmNhdC44ZGZiZi5naWYKcAl0aHVtYgkxMjAweDk2MDA-/7c27db65/bd5/shower-cat.gif',
+        'http://25.media.tumblr.com/tumblr_mbaic7FGXT1qbvq2so1_500.gif',
+        'http://www.reactiongifs.com/wp-content/uploads/2013/05/deal.gif',
+        'http://gifling.com/galleries/gifs1/cat-digging-snow.gif',
+        'http://24.media.tumblr.com/tumblr_m0py8284X31qf5z7ko1_500.gif',
+        'http://d1d2e8z52bbsdm.cloudfront.net/blog/wp-content/uploads/2013/05/cat-bath.gif'
     ];
 
     $stage = $('#stage');
